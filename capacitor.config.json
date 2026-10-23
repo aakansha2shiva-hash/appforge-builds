@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.zunoplay",
+  "appName": "ZunoPlay",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "example.com",
+      "*.example.com"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#111827"
+  }
+}

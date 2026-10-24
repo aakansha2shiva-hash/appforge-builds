@@ -1,0 +1,37 @@
+{
+  "name": "zuno-play",
+  "productName": "ZUNO PLAY",
+  "version": "1.0.0",
+  "description": "CS BIID",
+  "author": "AppForge Studio",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.appforge.zunoplay",
+    "productName": "ZUNO PLAY",
+    "files": [
+      "main.cjs",
+      "splash.html",
+      "icon.png"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

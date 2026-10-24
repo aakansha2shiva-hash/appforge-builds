@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.zunoplay",
+  "appName": "ZUNOPLAY",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "truestream-video-village.lovable.app",
+      "*.truestream-video-village.lovable.app"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0f0f12"
+  }
+}

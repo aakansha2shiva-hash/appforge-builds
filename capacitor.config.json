@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.socialchat",
+  "appName": "Social chat",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "purple-moments-hub.lovable.app",
+      "*.purple-moments-hub.lovable.app"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0f0f12"
+  }
+}

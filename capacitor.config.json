@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.downloadapp",
+  "appName": "Download app",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "brand-to-app-studio.lovable.app",
+      "*.brand-to-app-studio.lovable.app"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0f0f12"
+  }
+}

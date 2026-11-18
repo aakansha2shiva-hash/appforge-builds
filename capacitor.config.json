@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.rijo",
+  "appName": "Rijo",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "circle-of-real-stories.lovable.app",
+      "*.circle-of-real-stories.lovable.app"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0f0f12"
+  }
+}

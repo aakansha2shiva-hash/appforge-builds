@@ -1,0 +1,15 @@
+{
+  "appId": "com.appforge.instapro",
+  "appName": "Insta pro",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "pink-button-video-club.lovable.app",
+      "*.pink-button-video-club.lovable.app"
+    ],
+    "androidScheme": "https"
+  },
+  "android": {
+    "backgroundColor": "#0f0f12"
+  }
+}
